@@ -559,11 +559,12 @@ function Index() {
       <header className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4">
           <div className="flex h-16 items-center justify-between">
-            <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveSection('home')}>
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <Icon name="Heart" className="text-white" size={20} />
-              </div>
-              <span className="text-xl font-bold font-heading"></span>
+            <div className="flex items-center gap-3 cursor-pointer" onClick={() => setActiveSection('home')}>
+              <img 
+                src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-07 в 22.17.38.png" 
+                alt="SOLOMAMA" 
+                className="h-12 w-auto"
+              />
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
@@ -636,10 +637,11 @@ function Index() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                  <Icon name="Heart" className="text-white" size={16} />
-                </div>
-                <span className="text-lg font-bold font-heading">Мама+</span>
+                <img 
+                  src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-07 в 22.17.38.png" 
+                  alt="SOLOMAMA" 
+                  className="h-10 w-auto"
+                />
               </div>
               <p className="text-sm text-muted-foreground">
                 Сообщество мам, где поддержка и забота — главные ценности
