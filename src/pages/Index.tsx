@@ -563,7 +563,7 @@ function Index() {
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                 <Icon name="Heart" className="text-white" size={20} />
               </div>
-              <span className="text-xl font-bold font-heading">Мама+</span>
+              <span className="text-xl font-bold font-heading"></span>
             </div>
 
             <nav className="hidden md:flex items-center gap-6">
